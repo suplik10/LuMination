@@ -1,0 +1,44 @@
+# --table-start--
+dataClass=cz.lumination.fitapp.entity.Exercise
+tableName=excercises
+# --table-fields-start--
+
+# --field-start--
+fieldName=exerciseId
+columnName=exercise_id
+generatedId=true
+# --field-end--
+
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+
+# --field-start--
+fieldName=type
+columnName=type
+# --field-end--
+
+# --field-start--
+fieldName=sets
+columnName=sets
+# --field-end--
+
+# --field-start--
+fieldName=reps
+columnName=reps
+# --field-end--
+
+# --field-start--
+fieldName=restBetweenSetsInSeconds
+columnName=restBetweenSetsInSeconds
+# --field-end--
+
+# --field-start--
+fieldName=liftingWeight
+columnName=liftingWeight
+# --field-end--
+
+# --table-fields-end--
+# --table-end--
+#################################

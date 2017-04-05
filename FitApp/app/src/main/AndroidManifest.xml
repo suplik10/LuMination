@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cz.lumination.fitapp">
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.WorkoutsActivity"
+            android:label="@string/workouts"
+            android:parentActivityName=".activity.MainActivity">
+        </activity>
+        <activity
+            android:name=".activity.EditWorkoutActivity"
+            android:label="@string/workout"
+            android:parentActivityName=".activity.WorkoutsActivity">
+        </activity>
+        <activity
+            android:name=".activity.ExercisesActivity"
+            android:label="@string/exercises"
+            android:parentActivityName=".activity.MainActivity">
+        </activity>
+        <activity
+            android:name=".activity.EditExerciseActivity"
+            android:label="@string/exercise"
+            android:parentActivityName=".activity.ExercisesActivity">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_workouts"
+            android:icon="@drawable/ic_workouts"
+            android:title="@string/workouts" />
+        <item
+            android:id="@+id/nav_exercises"
+            android:icon="@drawable/ic_exercises"
+            android:title="@string/exercises" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_help_feedback"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help_feedback" />
+    </group>
+
+
+</menu>
